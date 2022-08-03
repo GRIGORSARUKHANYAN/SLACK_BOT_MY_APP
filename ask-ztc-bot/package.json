@@ -1,0 +1,23 @@
+{
+  "name": "ask-ztc-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node_modules/.bin/nodemon --require dotenv/config app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.12.1",
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.7.2",
+    "ack-node": "^1.5.1",
+    "body-parser": "^1.20.0",
+    "conversations": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

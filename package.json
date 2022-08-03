@@ -1,0 +1,27 @@
+{
+  "name": "slac-porc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.12.1",
+    "express": "^4.18.1"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
+
+
+
+
+
+
+
